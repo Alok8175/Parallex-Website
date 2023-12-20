@@ -1,0 +1,134 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    transform-style: preserve-3d;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+
+    position: relative;
+}
+
+.back {
+
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: translateZ(-40px) scale(5);
+
+}
+
+.fore {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    transform: translateZ(-20px) scale(3);
+}
+
+h1 {
+    color: rgb(255, 254, 254);
+    background-color: rgb(71, 21, 21);
+    border-radius: 20px;
+    font-size: 3em;
+    position: absolute;
+    top: 2rem;
+    transform: translateZ(-10px) scale(5);
+    text-shadow: 0px 0px 10px rgba(246, 243, 243, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h2 {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    font-size: 5rem;
+}
+
+section {
+    background-color: rgb(43, 30, 30);
+    background-attachment: fixed;
+    padding-bottom: 5rem;
+    color: aliceblue;
+
+}
+
+.a {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.shiksha.com/mediadata/images/1507374080php7Y15dy.jpeg);
+}
+
+
+
+.b {
+
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.collegebatch.com/static/clg-gallery/gl-bajaj-institute-of-management-research-greater-noida-232089.jpg);
+}
+
+
+
+.c {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/G.L._Bajaj_Institute_of_Technology_and_Management%2C_Greater_Noida.jpg/2560px-G.L._Bajaj_Institute_of_Technology_and_Management%2C_Greater_Noida.jpg);
+}
+
+
+
+h3 {
+
+    font-size: 3em;
+    background-color: rgb(44, 26, 24);
+    background-size: 4em;
+    padding: 6px;
+    border-radius: 10px;
+
+}
+
+p {
+
+    font-size: 30px;
+    padding: 5rem;
+
+}
